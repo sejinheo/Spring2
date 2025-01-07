@@ -14,7 +14,7 @@ public class Order {
         this.itemPrice = itemPrice;
         this.discountPrice = discountPrice;
     }
-    public int calulatePrice(){
+    public int calculatePrice(){
         return itemPrice - discountPrice;
     }
     public Long getMemberId() {
@@ -41,12 +41,12 @@ public class Order {
         this.itemPrice = itemPrice;
     }
 
-    public int getDisountPrice() {
+    public int getDiscountPrice() {
         return discountPrice;
     }
 
-    public void setDisountPrice(int disountPrice) {
-        this.discountPrice = disountPrice;
+    public void setDiscountPrice(int discountPrice) {
+        this.discountPrice = discountPrice;
     }
 
     @Override
