@@ -11,7 +11,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 @Component
-@RequiredArgsConstructor//생서자 만들어 /lombok
+@RequiredArgsConstructor//생성자 만들어줌 /lombok
 public class OrderServiceImpl implements OrderService {
 
 
